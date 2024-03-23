@@ -34,6 +34,7 @@
   --smaller-font-size: .75rem;
 }
 
+/* Responsive typography */
 @media screen and (min-width: 968px) {
   :root {
     --h2-font-size: 1.5rem;
