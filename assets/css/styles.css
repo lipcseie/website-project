@@ -103,7 +103,32 @@ img {
 }
 
 /*=============== PROFILE ===============*/
+.profile{
+  position: relative;
+  padding-top: 3.5rem;
+}
 
+.profile__container{
+  row-gap: 2rem;
+}
+
+.profile__data{
+  display: grid;
+  text-align: center;
+}
+
+.profile__perfil{
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(180deg,
+  hsla(var(--hue), var(--sat), var(--lig), 1) 0%,
+  hsla(var(--hue), var(--sat), var(--lig), .2) 100%);
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
 
 /*=============== BUTTONS ===============*/
 
