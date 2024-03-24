@@ -117,7 +117,7 @@ img {
   text-align: center;
 }
 
-.profile__perfil{
+.profile__pic{
   width: 100px;
   height: 100px;
   background: linear-gradient(180deg,
@@ -129,6 +129,26 @@ img {
   align-items: flex-end;
   justify-content: center;
 }
+
+.profile__pic img{
+  width: 75px;
+}
+
+.profile__border{
+  border: 3.5px solid var(--first-color);
+  justify-self: center;
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  margin-bottom: .75rem;
+}
+
+.profile__social-link i {
+  color: var(--first-color); /* change 'var(--first-color)' to any color you want */
+}
+
 
 /*=============== BUTTONS ===============*/
 
