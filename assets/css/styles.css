@@ -192,8 +192,35 @@ img {
   font-weight: 500;
 }
 
+.profile__buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+
 
 /*=============== BUTTONS ===============*/
+.button{
+  display: inline flex;
+  align-items: center;
+  column-gap: .5rem;
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 1.15rem;
+  border-radius: .5rem;
+  transition: .3s;
+  box-shadow: 0 8px 24px hsla(var(--hue), var(--sat), var(--lig), .25);
+}
+
+.button i{
+  font-size: 1.25rem;
+}
+
+.button:hover{
+  background-color: var(--first-color-alt);
+}
 
 
 /*=============== FILTERS TABS ===============*/
