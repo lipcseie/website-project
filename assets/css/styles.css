@@ -145,6 +145,17 @@ img {
   margin-bottom: .75rem;
 }
 
+.profile__name{
+  font-size: var(--h2-font-size);
+}
+
+.profile__profession{
+  font-size: var(--smaller-font-size);
+  font-weight: 500;
+  color: var(--text-color);
+  margin-bottom: 1rem;
+}
+
 .profile__social-link i {
   color: var(--first-color); /* change 'var(--first-color)' to any color you want */
 }
