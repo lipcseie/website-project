@@ -430,6 +430,8 @@ body.dark-theme{
   display: flex;
   justify-content: center;
   column-gap: 3rem;
+  width: 968px; /* Set width to 968px for all skill areas */
+  height: 60px; /* Adjusted height for technologies skill area */
 }
 
 .skills__group {
@@ -444,9 +446,11 @@ body.dark-theme{
 .skills__data{
   display: flex;
   column-gap: .5rem;
+  align-items: center; 
 }
 
-.skills__data i, .skills__data span{
+.skills__data i, 
+.skills__data span{
   font-size: 1rem;
   color: var(--first-color);
 }
