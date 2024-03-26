@@ -78,6 +78,9 @@ img {
   height: auto;
 }
 
+
+
+
 /*=============== THEME ===============*/
 
 
@@ -265,6 +268,7 @@ img {
   height: auto; 
   margin: 0 auto; 
   border-radius: .75rem;
+  padding: 1rem;
 }
 
 .education__subtitle, .education__subtitles {
@@ -282,7 +286,7 @@ img {
 
 .education__content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
@@ -303,6 +307,58 @@ img {
 .education__card:hover .education__modal,
 .education__card:focus-within .education__modal {
   opacity: 1; 
+}
+
+/*=============== COURSE-LIST ===============*/
+.course-header{
+  display: flex;
+  padding-bottom: .5rem;
+  justify-content: center;
+}
+
+.course-list {
+  background: linear-gradient(145deg, #f8f8f8, #e6e6e6); 
+  border: 1px solid #ccc; 
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1); 
+  border-radius: .5rem; 
+  padding: 20px;
+  max-width: 600px; 
+  margin: auto; 
+}
+
+.course-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; 
+}
+
+.course-list li {
+  padding: 15px 20px; 
+  border-bottom: 2px solid #eee; 
+  transition: background-color 0.3s; 
+}
+
+.course-list li:hover {
+  background-color: var(--body-color);
+  border-radius: .5rem;  
+
+}
+
+.course-list li:last-child {
+  border-bottom: none;
+}
+
+.course-list li:not(:last-child) {
+  margin-bottom: 10px; 
+}
+
+.course-list p {
+  color: var(--title-color);
+  font-size: 1rem; 
+  line-height: 1.6; 
+  text-align: left; 
+  margin-top: 0; 
+  margin-bottom: 1.5rem;  
 }
 
 

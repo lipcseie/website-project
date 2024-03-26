@@ -103,7 +103,8 @@
 
                     <!--=============== EDUCATION ===============-->
                     <div class="education__content" data-content id="education">
-                        <article href="" class="education__card">
+                        <a href="net-course.html">
+                        <article href="" class="education__card" data-topic="NET">
                             <img src="assets/img/NIX-logo.jpg" alt="" class="education__img">
                             <div class="education__modal">
                                 <div>
@@ -112,8 +113,8 @@
                                 </div>
                             </div>
                         </article>
-                    
-                        <article href="" class="education__card">
+                    </a>
+                        <article href="" class="education__card" data-topic="Junior">
                             <img src="assets/img/GFA-logo.jpg" alt="" class="education__img">
 
                             <div class="education__modal">
@@ -124,6 +125,11 @@
                             </div>
                         </article>
 
+                    </div>
+
+                    <div id="topics" style="display: none;">
+                        <h2>Topics Learned</h2>
+                        <ul id="topicList"></ul>
                     </div>
 
             </section>
