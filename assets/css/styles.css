@@ -288,7 +288,7 @@ img {
   padding: 1rem;
 }
 
-.education__subtitle, .education__subtitles {
+.education__subtitle, .education__subtitles, .education__cta {
   font-size: var(--small-font-size); 
   color: var(--text-color-light); 
 }
