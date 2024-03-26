@@ -434,10 +434,18 @@ img {
 }
 
 /* Activate button filter */
-
+.filter-tab-avtive{
+  background-color: var(--body-color);
+}
 
 /*=============== FOOTER ===============*/
-
+.footer__copy{
+  display: block;
+  margin: 2.5rem 0 2 rem;
+  text-align: center;
+  font-size: var(--small-font-size);
+  color: var(--text-color-light)
+}
 
 /*=============== SCROLL BAR ===============*/
 
