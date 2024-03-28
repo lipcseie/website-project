@@ -648,3 +648,8 @@ body.dark-theme{
   margin: 4.5rem 0 2.5rem;
  }
 }
+
+/*=============== SCROLL REVEAL ANIMATION ===============*/
+html.sr .load-hidden {
+  visibility: hidden;
+}
