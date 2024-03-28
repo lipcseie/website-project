@@ -57,7 +57,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
-  transition: .3s; /* For animation dark mode */
+  transition: .3s; 
 }
 
 h1, h2, h3 {
@@ -88,6 +88,7 @@ img {
   color: var(--title-color);
   cursor: pointer;
   transition: .3rem;
+  z-index: 9999;
 }
 
 .change-theme:hover{
@@ -111,6 +112,21 @@ body.dark-theme{
   background-color: var(--container-color);
 }
 
+.dark-theme .course-list p{
+  color: var(--container-color);
+}
+
+.dark-theme .course-list{
+  background: darkgrey;
+}
+
+.dark-theme .course-list li{
+  color: var(--container-color);
+}
+
+.dark-theme .course-list li:hover{
+  color: white;
+}
 .dark-theme::-webkit-scrollbar{
   background-color: hsl(var(--hue), 8%, 16%);
 }
