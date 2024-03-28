@@ -443,16 +443,12 @@ body.dark-theme{
 }
 
 .skills__box{
-  display: flex;
-  justify-content: center;
   column-gap: 3rem;
-  width: 968px; /* Set width to 968px for all skill areas */
-  height: 60px; /* Adjusted height for technologies skill area */
 }
 
 .skills__group {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Adjusted */
+  grid-template-columns: repeat(2, 1fr);
   align-content: flex-start;
   row-gap: 1.5rem;
   column-gap: 1.5rem;
@@ -526,14 +522,55 @@ body.dark-theme{
   .container{
     margin-left: 1rem;
     margin-right: 1rem;
-  } 
+  }
 
   .profile__info{
     column-gap: 1.5rem;
   }
+
+  .skills__box{
+    column-gap: 1rem;
+   
+  }
+
+  .course-list {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
 }
 
 /* For medium devices */
+@media screen and (min-width: 576px) {
+  .education__content{
+    grid-template-columns: 332px;
+    justify-content: center;
+  }
 
+  .filters__content{
+    width: 332px;
+    margin: 3rem auto;
+  }
+
+  .course-list {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 776px) {
+  .education__content{
+    grid-template-columns: repeat(2, 332px);
+  }
+
+  .skills__content{
+    justify-content: center;
+    column-gap: 3rem;
+  }
+
+  .course-list {
+  margin: auto;
+  }
+}
 
 /* For large devices */
