@@ -24,7 +24,7 @@ This website serves as my online resume and portfolio. It provides an overview o
 
 ## Live Website
 
-You can view the live version of my personal website at www.editlipcseidev.com.
+You can view the live version of my personal website at www.editlipcsei.com.
 
 Feel free to explore the site and get in touch if you have any feedback or inquiries!
 
