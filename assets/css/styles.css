@@ -531,9 +531,13 @@ body.dark-theme{
     margin-right: 1rem;
   }
 
+  .education__card .education__modal {
+    opacity: 1; 
+  }
+
 }
 
-@media screen  and (max-width: 375px){
+@media screen  and (max-width: 430px){
   .container{
     margin-left: 1rem;
     margin-right: 1rem;
@@ -551,6 +555,10 @@ body.dark-theme{
   .course-list {
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .education__card .education__modal {
+    opacity: 1; 
   }
 
 }
@@ -571,6 +579,7 @@ body.dark-theme{
     margin-left: 1rem;
     margin-right: 1rem;
   }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -586,6 +595,7 @@ body.dark-theme{
   .course-list {
   margin: auto;
   }
+
 }
 
 /* For large devices */
