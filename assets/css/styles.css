@@ -306,12 +306,14 @@ body.dark-theme{
   background-color: transparent;
   transition: .3s;
   cursor: pointer;
-  color: var(--text-color)
+  color: var(--text-color);
+  margin: 0;
 }
 
 .filters__button:hover{
   background-color: var(--body-color);
 }
+
 
 /*=============== EDUCATION ===============*/
 .education__card {
@@ -723,12 +725,12 @@ button:hover {
 /*=============== DARK THEME ===============*/
 body.dark-theme .form-group input, 
 body.dark-theme .form-group textarea {
-  background-color: var(--container-color); /* Background color for dark mode */
-  color: var(--text-color); /* Text color for dark mode */
-  border: 1px solid hsl(var(--hue), 12%, 20%); /* Border color for dark mode */
+  background-color: var(--container-color); 
+  color: var(--text-color); 
+  border: 1px solid hsl(var(--hue), 12%, 20%); 
 }
 
 body.dark-theme .form-group label {
-  color: var(--text-color); /* Label color for dark mode */
+  color: var(--text-color); 
 }
 
