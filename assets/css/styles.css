@@ -701,6 +701,8 @@ html.sr .load-hidden {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box; 
+  background-color: var(--container-color); /* Background color for light mode */
+  color: var(--text-color); /* Text color for light mode */
 }
 
 button {
@@ -717,3 +719,16 @@ button {
 button:hover {
   background-color: var(--first-color-alt);
 }
+
+/*=============== DARK THEME ===============*/
+body.dark-theme .form-group input, 
+body.dark-theme .form-group textarea {
+  background-color: var(--container-color); /* Background color for dark mode */
+  color: var(--text-color); /* Text color for dark mode */
+  border: 1px solid hsl(var(--hue), 12%, 20%); /* Border color for dark mode */
+}
+
+body.dark-theme .form-group label {
+  color: var(--text-color); /* Label color for dark mode */
+}
+
