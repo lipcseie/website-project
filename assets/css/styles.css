@@ -663,3 +663,51 @@ body.dark-theme{
 html.sr .load-hidden {
   visibility: hidden;
 }
+
+/*=============== CONATCT ME ===============*/
+
+.contact.container {
+  margin: 0;
+}
+
+
+.contact {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: var(--first-color);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: var(--first-color-alt);
+}
