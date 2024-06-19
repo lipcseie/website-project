@@ -664,15 +664,9 @@ html.sr .load-hidden {
   visibility: hidden;
 }
 
-/*=============== CONATCT ME ===============*/
-
+/*=============== CONTACT ME ===============*/
 .contact.container {
-  margin: 0;
-}
-
-
-.contact {
-  margin: 40px 0;
+  margin: 40px auto;
   text-align: center;
 }
 
@@ -681,7 +675,17 @@ html.sr .load-hidden {
   margin-bottom: 20px;
 }
 
+#contact-form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+
 .form-group {
+  width: 100%;
   margin-bottom: 15px;
   text-align: left;
 }
@@ -692,10 +696,11 @@ html.sr .load-hidden {
 }
 
 .form-group input, .form-group textarea {
-  width: 100%;
+  width: 100%; 
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  box-sizing: border-box; 
 }
 
 button {
@@ -706,6 +711,7 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-size: 1em;
+  margin-top: 20px; 
 }
 
 button:hover {
