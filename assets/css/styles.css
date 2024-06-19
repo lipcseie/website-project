@@ -198,6 +198,18 @@ body.dark-theme{
   margin-bottom: 1rem;
 }
 
+.profile__paragraph-container {
+  width: 50%; 
+  margin: 0 auto; 
+  text-align: justify;
+  padding-bottom: 20px;
+}
+
+p {
+  line-height: 1.5; 
+}
+
+
 .profile__social{
   display: flex;
   justify-content: center;
@@ -240,7 +252,6 @@ body.dark-theme{
   justify-content: center;
   padding: 1rem;
 }
-
 
 
 /*=============== BUTTONS ===============*/
