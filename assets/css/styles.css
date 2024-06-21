@@ -199,7 +199,7 @@ body.dark-theme{
 }
 
 .profile__paragraph-container {
-  width: 50%; 
+  width: 60%; 
   margin: 0 auto; 
   text-align: justify;
   padding-bottom: 20px;
@@ -342,6 +342,7 @@ p {
   border-radius: .75rem;
   padding: 1rem;
 }
+
 
 .education__subtitle, .education__subtitles, .education__cta {
   font-size: var(--small-font-size); 
@@ -549,6 +550,11 @@ p {
     opacity: 1; 
   }
 
+  .profile__paragraph-container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
 }
 
 @media screen  and (max-width: 430px){
@@ -715,8 +721,8 @@ html.sr .load-hidden {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box; 
-  background-color: var(--container-color); /* Background color for light mode */
-  color: var(--text-color); /* Text color for light mode */
+  background-color: var(--container-color); 
+  color: var(--text-color); 
 }
 
 button {
