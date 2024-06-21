@@ -199,7 +199,6 @@ body.dark-theme{
 }
 
 .profile__paragraph-container {
-  width: 60%; 
   margin: 0 auto; 
   text-align: justify;
   padding-bottom: 20px;
@@ -527,12 +526,12 @@ p {
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen  and (max-width: 320px){
-  .container{
+  .container {
     margin-left: 1rem;
     margin-right: 1rem;
   }
 
-  .profile__info{
+  .profile__info {
     column-gap: 1.5rem;
   }
 
@@ -550,9 +549,8 @@ p {
     opacity: 1; 
   }
 
-  .profile__paragraph-container{
-    margin-left: 1rem;
-    margin-right: 1rem;
+  .profile__paragraph-container {
+    width: 100%; 
   }
 
 }
@@ -616,6 +614,10 @@ p {
   margin: auto;
   }
 
+  .profile__paragraph-container {
+    width: 80%; 
+  }
+
 }
 
 /* For large devices */
@@ -677,6 +679,10 @@ p {
  .footer__copy{
   margin: 4.5rem 0 2.5rem;
  }
+
+ .profile__paragraph-container {
+  width: 60%; 
+}
 }
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
