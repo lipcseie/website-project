@@ -132,6 +132,18 @@ body.dark-theme{
   background-color: hsl(var(--hue), 8%, 32%);
 }
 
+body.dark-theme .form-group input, 
+body.dark-theme .form-group textarea {
+  background-color: var(--container-color); 
+  color: var(--text-color); 
+  border: 1px solid hsl(var(--hue), 12%, 20%); 
+}
+
+body.dark-theme .form-group label {
+  color: var(--text-color); 
+}
+
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 968px;
@@ -618,6 +630,11 @@ p {
     width: 80%; 
   }
 
+  .filters__content{
+    width: 332px;
+    margin: 3rem auto;
+  }
+
 }
 
 /* For large devices */
@@ -683,6 +700,11 @@ p {
  .profile__paragraph-container {
   width: 60%; 
 }
+
+.filters__content{
+  width: 332px;
+  margin: 3rem auto;
+}
 }
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
@@ -743,17 +765,5 @@ button {
 
 button:hover {
   background-color: var(--first-color-alt);
-}
-
-/*=============== DARK THEME ===============*/
-body.dark-theme .form-group input, 
-body.dark-theme .form-group textarea {
-  background-color: var(--container-color); 
-  color: var(--text-color); 
-  border: 1px solid hsl(var(--hue), 12%, 20%); 
-}
-
-body.dark-theme .form-group label {
-  color: var(--text-color); 
 }
 
