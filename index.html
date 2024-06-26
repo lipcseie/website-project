@@ -20,8 +20,33 @@
         <title>Edit Lipcsei's website</title>
     </head>
     <body>
+    <!--=============== NAVBAR ===============-->
+    <nav class="navbar  load-hidden">
+        <!-- <ul class="navbar__content">
+            <li class="navbar__item">
+                <a href="#education" class="navbar__link filter-tab-active" data-target="#education">Education</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#skills" class="navbar__link" data-target="#skills">Skills</a>
+            </li>
+        </ul> -->
+        <ul class="navbar__content">
+            <button class="filters__button filter-tab-active" data-target="#home">
+                Home
+            </button>
+
+            <button class="filters__button filter-tab-active" data-target="#education">
+                Education
+            </button>
+
+            <button class="filters__button" data-target="#skills">
+                Skills
+            </button>
+        </ul>
+    </nav> 
         <!--=============== HEADER PROFILE ===============-->
-        <header class="profile container">
+            <!--=============== Home ===============-->
+        <header class="profile container grid filters__active" data-content id="home">
             <!-- Theme button -->
             <i class="ri-moon-line change-theme" id="theme-button"></i>
             <div profile__container grid>
@@ -90,6 +115,7 @@
         <main class="main">
             <section class="filters container load-hidden">
                 <!--=============== FILTERS TABS ===============-->
+                <!-- <div class="nav">
                 <ul class="filters__content load-hidden">
                     <button class="filters__button filter-tab-active" data-target="#education">
                         Education
@@ -99,8 +125,11 @@
                         Skills
                     </button>
                 </ul>
+            </div>
+                <div class="filters__sections"> -->
 
-                <div class="filters__sections">
+            
+                
                 <!--=============== SKILLS ===============-->
                 <div class="skills__content grid " data-content id="skills">
                     <div class="skills__area">
@@ -215,7 +244,7 @@
 
 
                     <!--=============== EDUCATION ===============-->
-                    <div class="education__content grid filters__active" data-content id="education">
+                    <div class="education__content grid" data-content id="education">
                         <a href="net-course.html">
                         <article href="" class="education__card" data-topic="NET">
                             <img src="assets/img/NIX-logo.jpg" alt="" class="education__img">

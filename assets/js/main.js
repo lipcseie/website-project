@@ -67,6 +67,7 @@ let sr = ScrollReveal({
 });
 
 
+sr.reveal(`.navbar`); 
 sr.reveal(`.profile__border`);
 sr.reveal(`.profile__name`, { delay: 500 });
 sr.reveal(`.profile__profession`, { delay: 550 });
