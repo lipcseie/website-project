@@ -306,7 +306,7 @@ p {
 
 
 /*=============== FILTERS TABS ===============*/
-.filters__content{
+.filters__content {
   margin: 2rem 0 2.5rem;
   background-color: var(--text-color-lighten);
   padding: .325rem;
@@ -314,12 +314,15 @@ p {
   display: flex;
   justify-content: space-between;
   column-gap: .5rem;
+
+  /* Ensure flexibility and responsiveness */
+  flex-wrap: wrap; /* Allow buttons to wrap onto new lines */
 }
 
-.filters__button{
-  width: 10%;
-  border: none;
-  outline: none;
+.filters__button {
+  /* Adjust width or flex properties for responsiveness */
+  flex: 1 1 auto; /* Allow flexible width based on content */
+  max-width: 150px; /* Optional: set maximum width to prevent excessive stretching */
   padding: 1rem;
   font-size: var(--small-font-size);
   font-family: var(--body-font);
@@ -332,7 +335,8 @@ p {
   margin: 0;
 }
 
-.filters__button:hover{
+/* Adjust hover state if needed */
+.filters__button:hover {
   background-color: var(--body-color);
 }
 
@@ -564,7 +568,14 @@ p {
     width: 100%; 
   }
 
+  .filters__content {
+    flex-direction: column; /* Stack buttons vertically on smaller screens */
+  }
 
+  .filters__button {
+    width: 100%; /* Full width for each button when stacked */
+    margin-bottom: 0.5rem; /* Optional: add some spacing between stacked buttons */
+  }
 }
 
 @media screen  and (max-width: 430px){
@@ -590,7 +601,23 @@ p {
   .education__card .education__modal {
     opacity: 1; 
   }
+  .filters__content {
+    flex-direction: column; 
+  }
 
+  .filters__button {
+    width: 100%; 
+    margin-bottom: 0.5rem; 
+  }  
+  
+  .filters__content {
+    flex-direction: column; 
+  }
+
+  .filters__button {
+    width: 100%; 
+    margin-bottom: 0.5rem; 
+  }
 }
 
 /* For medium devices */
@@ -635,6 +662,14 @@ p {
     margin: 3rem auto;
   }
 
+  .filters__content {
+    flex-direction: column; 
+  }
+
+  .filters__button {
+    width: 100%; 
+    margin-bottom: 0.5rem; 
+  }
 }
 
 /* For large devices */

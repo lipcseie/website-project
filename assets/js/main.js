@@ -1,6 +1,6 @@
 /*=============== FILTERS TABS ===============*/
-const tabs = document.querySelectorAll("[data-target]"),
-  tabContents = document.querySelectorAll("[data-content]");
+const tabs = document.querySelectorAll("[data-target]");
+const tabContents = document.querySelectorAll("[data-content]");
 
 tabs.forEach((tab) => {
   tab.addEventListener("click", () => {
@@ -12,14 +12,14 @@ tabs.forEach((tab) => {
 
     target.classList.add("filters__active");
 
-    tabs.forEach(t => {
-        t.classList.remove('filter-tab-active')
+    tabs.forEach((t) => {
+      t.classList.remove("filter-tab-active");
     });
 
-    tab.classList.add('filter-tab-active');
-
+    tab.classList.add("filter-tab-active");
   });
 });
+
 
 /*=============== DARK LIGHT THEME ===============*/
 const themeButton = document.getElementById("theme-button");
