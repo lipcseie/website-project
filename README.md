@@ -12,7 +12,6 @@ This website serves as my online resume and portfolio. It provides an overview o
 - Section for education details
 - Section for skills showcasing
 - Links to social profiles and contact information
-- Downloadable resume/CV
 
 ## Technologies Used
 
