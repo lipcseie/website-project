@@ -570,12 +570,12 @@ p {
   }
 
   .filters__content {
-    flex-direction: column; /* Stack buttons vertically on smaller screens */
+    flex-direction: column; 
   }
 
   .filters__button {
-    width: 100%; /* Full width for each button when stacked */
-    margin-bottom: 0.5rem; /* Optional: add some spacing between stacked buttons */
+    width: 100%; 
+    margin-bottom: 0.5rem; 
   }
 }
 
@@ -805,10 +805,12 @@ button:hover {
 
 /*=============== NAVBAR ===============*/
 .navbar {
-  width: 100%;
   background-color: var(--container-color);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
 }
 
 .navbar__content {
