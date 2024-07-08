@@ -220,6 +220,17 @@ p {
   line-height: 1.5; 
 }
 
+.profile__paragraph {
+  margin-bottom: 16px;
+}
+
+.profile__paragraph:last-child {
+  margin-bottom: 0; 
+}
+
+.about{
+  margin-bottom: 16px;
+}
 
 .profile__social{
   display: flex;
