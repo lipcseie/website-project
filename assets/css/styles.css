@@ -626,6 +626,11 @@ p {
   .education__card .education__modal {
     opacity: 1;
   }
+  
+  .projects__card .projects__modal {
+    opacity: 1;
+  }
+
 
   .profile__paragraph-container {
     width: 100%;
@@ -687,6 +692,11 @@ p {
   .education__card .education__modal {
     opacity: 1;
   }
+
+  .projects__card .projects__modal {
+    opacity: 1;
+  }
+
   .filters__content {
     flex-direction: column;
   }
