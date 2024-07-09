@@ -78,8 +78,18 @@ sr.reveal(`.profile__buttons`, { delay: 750 });
 sr.reveal(`.filters__content`, { delay: 800 });
 sr.reveal(`.filters`, { delay: 850 });
 sr.reveal(`.course-header`);
+/*=============== SCROLL REVEAL ANIMATION  COURSE===============*/
 sr.reveal(`.course-list`, { delay: 500 });
 sr.reveal(`.go-back-button`, { delay: 550 });
+
+/*=============== SCROLL REVEAL ANIMATION  BookBazaar Project ===============*/
+sr.reveal(`.project-header`, { delay: 500 });
+sr.reveal(`.project-details`, { delay: 550 });
+sr.reveal(`.project-demo`, { delay: 600 });
+sr.reveal(`.button-container`, { delay: 650 });
+
+
+
 
 
 
