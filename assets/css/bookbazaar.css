@@ -180,7 +180,10 @@ header {
     transition: background-color 0.3s;
     margin: 1rem auto;
     display: block;
-    width: fit-content;
+    width:max-content;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
   }
   
   
@@ -193,7 +196,7 @@ header {
     justify-content: center;
     gap: 0rem; 
     margin-top: 2rem;
-    width: 20%;
+    width: 100%;
   }
   
   ul {
@@ -222,7 +225,7 @@ header {
     margin-left: -1em;
   }
 
-/*=============== BREAKPOINTS ===============*/
+  /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen  and (min-width: 430px){
   main {
@@ -243,7 +246,7 @@ header {
     }
     .button-container {
       flex-direction: column; /* Stack buttons vertically */
-      width: 50%;
+      width: 10%;
     }
 }
 
@@ -264,4 +267,3 @@ header {
       width: 50%;
     }
 }
-  
