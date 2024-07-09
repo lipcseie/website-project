@@ -166,4 +166,47 @@ header {
     width: 1em;
     margin-left: -1em;
   }
+
+  /*=============== BREAKPOINTS ===============*/
+/* For small devices */
+  @media screen  and (min-width: 430px){
+    main {
+        padding: 2rem 2rem; /* Reduce padding for smaller screens */
+      }
+    
+      .button-container {
+        flex-direction: column; /* Stack buttons vertically */
+        width: 100%;
+      }
+
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 455px) {
+    main {
+        padding: 2rem 2rem; /* Adjust padding for medium-sized screens */
+      }
+      .button-container {
+        flex-direction: column; /* Stack buttons vertically */
+        width: 10%;
+      }
+  }
+  
+  @media screen and (min-width: 768px) {
+    main {
+        padding: 2rem 2rem; /* Adjust padding for medium-sized screens */
+      }   
+
+    }
+  
+  /* For large devices */
+  @media screen and (min-width:992px) {
+    main {
+        padding: 2rem 15rem; /* Restore original padding for large screens */
+      }
+      .button-container {
+        flex-direction:row;
+        width: 50%;
+      }
+  }
   
