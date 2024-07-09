@@ -89,7 +89,6 @@ img {
 
 }
 
-
 /*========== Variables Dark theme ==========*/
 body.dark-theme{
   --title-color: hsl(var(--hue), 12%, 95%);
@@ -600,6 +599,16 @@ p {
     margin-right: 1rem;
   }
 
+  .profile__paragraph-container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+.profile__data{
+  display: grid;
+  text-align: center;
+}
+
   .profile__info {
     column-gap: 1.5rem;
   }
@@ -627,15 +636,38 @@ p {
   }
 
   .filters__button {
-    width: 100%;
+    width: 50%;
     margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
   }
+
+  .navbar {
+    background-color: var(--container-color);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+
+  .navbar__content {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-right: 2px;
+    margin-left: 2px;
+    padding-bottom: 20px;
+    padding: 0;
+  }
+  
 }
 
 @media screen  and (max-width: 430px){
   .container{
     margin-left: 1rem;
     margin-right: 1rem;
+  }
+
+  .profile__data{
+    display: grid;
+    text-align: center;
   }
 
   .profile__info{
@@ -694,6 +726,12 @@ p {
 }
 
 @media screen and (min-width: 768px) {
+
+  .container{
+    margin-left: 1rem;
+    margin-right: 1remp;
+  }
+
   .education__content{
     grid-template-columns: repeat(2, 332px);
   }
@@ -869,9 +907,9 @@ header h1 {
   margin-bottom: 0.5rem;
 }
 
-main {
+/* main {
   padding: 2rem 15rem;
-}
+}  */
 
 .project-details {
   margin-bottom: 3rem;
