@@ -1,0 +1,169 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+
+
+  --hue: 207;
+  --sat: 90%;
+  --lig: 61%;
+  --first-color: hsl(var(--hue), var(--sat), var(--lig));
+  --first-color-alt: hsl(var(--hue), var(--sat), 57%); /* -4% */
+  --title-color: hsl(var(--hue), 12%, 15%);
+  --text-color: hsl(var(--hue), 12%, 45%);
+  --text-color-light: hsl(var(--hue), 8%, 75%);
+  --text-color-lighten: hsl(var(--hue), 8%, 92%);
+  --body-color: hsl(var(--hue), 100%, 99%);
+  --container-color: #fff;
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: 'Poppins', sans-serif;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+}
+
+/* Responsive typography */
+@media screen and (min-width: 968px) {
+  :root {
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: .875rem;
+    --smaller-font-size: .813rem;
+  }
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+  transition: .3s;
+}
+
+h1, h2, h3 {
+  color: var(--title-color);
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+    background-color: var(--container-color);
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  main {
+    padding: 2rem 15rem;
+  } 
+  
+  .project-details {
+    margin-bottom: 3rem;
+  }
+  
+  .project-details h2 {
+    font-size: var(--h2-font-size);
+    margin-bottom: 1rem;
+  }
+  
+  .project-details p {
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-details ul {
+    margin-bottom: 1.5rem;
+  }
+  
+  .project-demo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .project-demo img {
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--first-color);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 1rem auto;
+    display: block;
+    width: fit-content;
+  }
+  
+  
+  .btn:hover {
+    background-color: var(--first-color-alt);
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 0rem; 
+    margin-top: 2rem;
+    width: 20%;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  ul {
+    margin-bottom: 1.5rem; 
+  }
+  
+  ul li {
+    padding: 0.5rem 0;
+    position: relative;
+    line-height: 1.6;
+  }
+  
+  ul li::before {
+    content: "\2022"; 
+    color: var(--first-color); 
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
