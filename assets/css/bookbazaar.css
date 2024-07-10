@@ -75,7 +75,7 @@ img {
 .change-theme{
   position: absolute;
   top: 1.5rem;
-  right: 5rem;
+  right: 1.5rem;
   font-size: 1.25rem;
   color: var(--title-color);
   cursor: pointer;
@@ -236,17 +236,6 @@ header {
       flex-direction: column; /* Stack buttons vertically */
       width: 100%;
     }
-    .change-theme{
-      position: absolute;
-      top: 4.5rem;
-      right: 0rem;
-      font-size: 1.25rem;
-      color: var(--title-color);
-      cursor: pointer;
-      transition: .3rem;
-      z-index: 9999;
-    }
-
 }
 
 /* For medium devices */

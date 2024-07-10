@@ -506,10 +506,9 @@ p {
   padding: 0;
 }
 
-
 /*=============== SKILLS ===============*/
 .skills__area {
-  margin-bottom: 3.5rem;
+  margin-bottom: 2rem;
 }
 
 .skills__title{
@@ -527,7 +526,7 @@ p {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-content: flex-start;
-  row-gap: 1.5rem;
+  row-gap: 1rem;
   column-gap: 1.5rem;
 }
 
@@ -550,9 +549,6 @@ p {
   line-height: 18px;
 }
 
-
-
-/* Hide and show education & skills */
 .filters [data-content]{
   display: none;
 }
@@ -561,7 +557,6 @@ p {
   display: grid;
 }
 
-/* Activate button filter */
 .filter-tab-avtive{
   background-color: var(--body-color);
 }
