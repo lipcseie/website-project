@@ -76,12 +76,13 @@ img {
 .change-theme{
   position: absolute;
   top: 1.5rem;
-  right: 0;
+  right: 1.5rem;
   font-size: 1.25rem;
   color: var(--title-color);
   cursor: pointer;
   transition: .3rem;
   z-index: 9999;
+  margin: 5px;
 }
 
 .change-theme:hover{
@@ -384,7 +385,7 @@ p {
   background-color: var(--body-color);
 }
 
-/*=============== EDUCATION ===============*/
+/*=============== EDUCATION/PROJECTS ===============*/
 .education__card,
 .projects__card {
   position: relative;
@@ -400,7 +401,7 @@ p {
   height: auto;
   margin: 0 auto;
   border-radius: .75rem;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 
@@ -425,6 +426,7 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  padding-top: 50px;
 }
 
 .education__modal,
@@ -629,8 +631,8 @@ p {
   
   .projects__card .projects__modal {
     opacity: 1;
+    
   }
-
 
   .profile__paragraph-container {
     width: 100%;

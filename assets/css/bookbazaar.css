@@ -236,6 +236,16 @@ header {
       flex-direction: column; /* Stack buttons vertically */
       width: 100%;
     }
+    .change-theme{
+      position: absolute;
+      top: 4.5rem;
+      right: 0rem;
+      font-size: 1.25rem;
+      color: var(--title-color);
+      cursor: pointer;
+      transition: .3rem;
+      z-index: 9999;
+    }
 
 }
 
@@ -248,6 +258,8 @@ header {
       flex-direction: column; /* Stack buttons vertically */
       width: 10%;
     }
+
+
 }
 
 @media screen and (min-width: 768px) {
