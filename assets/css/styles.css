@@ -286,26 +286,6 @@ p {
   color: var(--first-color);
 }
 
-.profile__info{
-  grid-template-columns: repeat(3, max-content);
-  justify-content: center;
-  column-gap: 2.5rem;
-}
-
-.profile__info-group{
-  text-align: center;
-}
-
-.profile__info-number{
-  font-size: var(--smaller-font-size);
-  margin-bottom: .25rem;
-}
-
-.profile__info-description{
-  font-size: var(--smaller-font-size);
-  font-weight: 500;
-}
-
 .profile__buttons{
   display: flex;
   align-items: center;
@@ -586,6 +566,65 @@ p {
   background-color: hsl(var(--hue), 8%, 44%);
 }
 
+/*=============== SCROLL REVEAL ANIMATION ===============*/
+html.sr .load-hidden {
+  visibility: hidden;
+}
+
+/*=============== CONTACT ME ===============*/
+.contact.container {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+#contact-form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+}
+
+.form-group {
+  width: 100%;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: var(--container-color);
+  color: var(--text-color);
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: var(--first-color);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: var(--first-color-alt);
+}
 
 
 /*=============== BREAKPOINTS ===============*/
@@ -670,10 +709,6 @@ p {
   .profile__data{
     display: grid;
     text-align: center;
-  }
-
-  .profile__info{
-    column-gap: 1.5rem;
   }
 
   .skills__box{
@@ -841,65 +876,6 @@ p {
 }
 }
 
-/*=============== SCROLL REVEAL ANIMATION ===============*/
-html.sr .load-hidden {
-  visibility: hidden;
-}
-
-/*=============== CONTACT ME ===============*/
-.contact.container {
-  margin: 40px auto;
-  text-align: center;
-}
-
-.contact h2 {
-  font-size: 2em;
-  margin-bottom: 20px;
-}
-
-#contact-form {
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  max-width: 600px;
-}
-
-.form-group {
-  width: 100%;
-  margin-bottom: 15px;
-  text-align: left;
-}
-
-.form-group label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.form-group input, .form-group textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
-  background-color: var(--container-color);
-  color: var(--text-color);
-}
-
-button {
-  padding: 10px 20px;
-  border: none;
-  background-color: var(--first-color);
-  color: white;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 1em;
-}
-
-button:hover {
-  background-color: var(--first-color-alt);
-}
 
 
 
