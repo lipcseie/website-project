@@ -4,7 +4,7 @@ This repository contains the code for my personal website.
 
 ## Introduction
 
-This website serves as my online resume and portfolio. It provides an overview of my skills, education, and professional experience.
+This website serves as my online resume and portfolio. It provides an overview of my skills, education, certificates and professional experience.
 
 ## Features
 
